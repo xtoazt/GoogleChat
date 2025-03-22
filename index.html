@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Popup -->
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <h2>Welcome to Google Chat!</h2>
+            <p>This is a simple chat website. You can chat with others, but there is no history to view, just notifications.</p>
+            <button id="closePopupBtn">Got it!</button>
+        </div>
+    </div>
+
+    <!-- Chat Window -->
+    <div id="chat-window" class="chat-window">
+        <textarea id="chatbox" placeholder="Type a message..." rows="1"></textarea>
+    </div>
+
+    <!-- Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.16.0/firebase-database.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
